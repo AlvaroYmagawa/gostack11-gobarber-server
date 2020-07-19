@@ -1,5 +1,8 @@
 import express from 'express';
+
+// CUSTOM IMPORTS
 import routes from './routes';
+import './database';
 
 const app = express();
 
