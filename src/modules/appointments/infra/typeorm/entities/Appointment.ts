@@ -9,7 +9,7 @@ import {
 } from 'typeorm';
 
 // CUSTOM IMPORTS
-import User from './Users';
+import User from '../../../../users/infra/typeorm/entities/Users';
 
 // '@' indicate that this JS field it has relation with DB
 

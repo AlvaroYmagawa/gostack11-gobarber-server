@@ -5,10 +5,10 @@ import express, { Request, Response, NextFunction } from 'express';
 import 'express-async-errors';
 
 // CUSTOM IMPORTS
-import AppError from './errors/AppError';
+import AppError from '../../errors/AppError';
 import routes from './routes';
-import './database';
-import uploadConfig from './config/upload';
+import '../database';
+import uploadConfig from '../../../config/upload';
 
 const app = express();
 

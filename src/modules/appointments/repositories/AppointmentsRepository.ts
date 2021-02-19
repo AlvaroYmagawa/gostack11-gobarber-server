@@ -1,7 +1,7 @@
 import { EntityRepository, Repository } from 'typeorm';
 
 // CUSTOM IMPORTS
-import Appointment from '../models/Appointment';
+import Appointment from '../infra/typeorm/entities/Appointment';
 
 // An repository control all data manipulation between DB
 @EntityRepository(Appointment)
